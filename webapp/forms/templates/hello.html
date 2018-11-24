@@ -1,0 +1,42 @@
+<html>
+<head>
+
+    <style>
+        *{
+            padding:0px;
+            margin:0px;
+        }
+        body{
+            margin:40px;
+            background:#555;
+            color:#fff;
+            text-align:center;
+
+
+        }
+        b{
+        margin-top:20px;
+        margin:20px;
+        }
+    </style>
+</head>
+<body>
+
+
+
+
+{% extends "layout.html" %}
+
+
+{%block heading%}
+
+Hello! world
+{%endblock%}
+
+{%block body %}
+
+Hello! <b>{{name}} </b>..
+
+
+{%endblock%}
+</body></html>
